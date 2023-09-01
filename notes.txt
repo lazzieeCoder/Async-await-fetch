@@ -1,0 +1,39 @@
+Contents:-
+Use of fetch()
+Async & Await
+Async & Await with error handling (Try & Catch)
+
+Fetch:
+=> it is alternative to XHR(XmlHttpRequest)
+=> Fetch takes API as a parameter.
+=>Syntax: fetch("");
+=> Return type is a promise
+=> The body section in the fetch is a readable stream
+=> to convert readable stream to object(JSON) We need to .json() method
+=> data.json(): it is a method to convert the body data into a k:v structure.
+**Remember: always need a .then and .catch to handle promise.**
+
+
+Async and Await
+=>it is applicable to the functions
+=>a normal func can be converted into async function by putting async keyword.
+=>async func always returns a promise.
+ =>to handle the promise we have await keyword.
+ =>await is used inside the async func.
+ =>await helps us to wait until the promise gets resolved.
+ =>await replacement for the .then
+
+Error Handling Statement:
+//Syntax:     
+try {
+  
+} 
+catch (error) {
+  
+}
+
+try-catch
+try: testing block
+catch: to handle the error
+
+
